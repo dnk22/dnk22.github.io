@@ -1,0 +1,2 @@
+- 👋 Hi, I’m @nguyenduy98
+- 🌱 I’m currently working at CMC Global with role Front-end Developer
