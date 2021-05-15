@@ -15,7 +15,6 @@ const phoneSection = contactPageData.phoneSection;
 
 const windowHeight = window.innerHeight;
 const Contact = ({ theme, onToggle }) => {
-  console.log(windowHeight, "windowHeight");
   return (
     <div className="contact-main">
       <Header theme={theme} />

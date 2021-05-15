@@ -22,10 +22,10 @@ class SkillSection extends Component {
   render() {
     const theme = this.props.theme;
     return (
-      <div>
-        {skills.data.map((skill) => {
+      <>
+        {skills.data.map((skill, index) => {
           return (
-            <div className="skills-main-div">
+            <div className="skills-main-div" key={index}>
               <Fade left duration={2000}>
                 <div className="skills-image-div">
                   {/* <img
@@ -47,11 +47,12 @@ class SkillSection extends Component {
                 </Fade>
                 <Fade right duration={2000}>
                   <div>
-                    {skill.skills.map((skillSentence) => {
+                    {skill.skills.map((skillSentence, idx) => {
                       return (
                         <p
                           className="subTitle skills-text"
                           style={{ color: theme.secondaryText }}
+                          key={idx}
                         >
                           {skillSentence}
                         </p>
@@ -63,7 +64,7 @@ class SkillSection extends Component {
             </div>
           );
         })}
-      </div>
+      </>
     );
   }
 }
