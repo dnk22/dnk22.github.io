@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
@@ -13,19 +13,22 @@ const ContactData = contactPageData.contactSection;
 const addressSection = contactPageData.addressSection;
 const phoneSection = contactPageData.phoneSection;
 
-const windowHeight = window.innerHeight
+const windowHeight = window.innerHeight;
 const Contact = ({ theme, onToggle }) => {
-  console.log(windowHeight, 'windowHeight');
+  console.log(windowHeight, "windowHeight");
   return (
     <div className="contact-main">
       <Header theme={theme} />
       <div className="basic-contact">
         <Fade bottom duration={1000} distance="40px">
-          <div className="contact-heading-div" style={{ height: windowHeight - 110 + 'px'}}>
+          <div
+            className="contact-heading-div"
+            style={{ height: windowHeight - 110 + "px" }}
+          >
             <div className="contact-heading-img-div">
               <div className="image-custom">
                 <img
-                  style={{ width: "300px", borderRadius: '50%' }}
+                  style={{ width: "300px", borderRadius: "50%" }}
                   src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
                   alt=""
                 />
@@ -101,7 +104,7 @@ const Contact = ({ theme, onToggle }) => {
       <Footer theme={theme} onToggle={onToggle} />
       <TopButton theme={theme} />
     </div>
-  )
-}
+  );
+};
 
 export default Contact;
