@@ -24,7 +24,7 @@
 
 <p align="center"> 
     <a href="https://nguyenduy98.github.io" target="_blank">
-    <img src="images/old-landing-page.png"></img>
+    <img src="images/old-landing-page.PNG"></img>
   </a>
 </p>
 
