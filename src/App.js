@@ -8,12 +8,10 @@ import { GlobalStyles } from "./global";
 function App() {
   return (
     <ThemeProvider theme={chosenTheme}>
-      <>
-        <GlobalStyles />
-        <div>
-          <Main theme={chosenTheme} />
-        </div>
-      </>
+      <GlobalStyles />
+      <React.Fragment>
+        <Main theme={chosenTheme} />
+      </React.Fragment>
     </ThemeProvider>
   );
 }

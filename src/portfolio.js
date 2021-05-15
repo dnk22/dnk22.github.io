@@ -8,8 +8,7 @@ const settings = {
 //SEO Related settings
 const seo = {
   title: "Nguyen Khanh Duy",
-  description:
-    "Always look to the future...",
+  description: "Always look to the future...",
   og: {
     title: "Duynk Portfolio",
     type: "website",
@@ -21,9 +20,9 @@ const seo = {
 const greeting = {
   title: "Nguyen Khanh Duy",
   logo_name: "Nguyen Khanh Duy",
+  name_second: "Nguyen Duy",
   nickname: "dilys_man",
-  subTitle:
-    "Always look to the future...",
+  subTitle: "Always look to the future...",
   resumeLink:
     "https://www.topcv.vn/xem-cv/VwUFAAMIWlZQB1tdAAcCAVkBUVNVVVwKVggCCAf4fb",
   portfolio_repository: "https://github.com/nguyenduy98/nguyenduy98.github.io",
@@ -520,8 +519,7 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle:
-      "Duy Tan, Cau Giay, Hanoi",
+    subtitle: "Duy Tan, Cau Giay, Hanoi",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://goo.gl/maps/iu8MB4vz6i7sxKuM9",
   },

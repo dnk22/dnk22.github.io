@@ -14,6 +14,7 @@ const addressSection = contactPageData.addressSection;
 const phoneSection = contactPageData.phoneSection;
 
 const windowHeight = window.innerHeight;
+const isMobile = typeof window.orientation !== "undefined";
 const Contact = ({ theme, onToggle }) => {
   return (
     <div className="contact-main">
@@ -22,7 +23,7 @@ const Contact = ({ theme, onToggle }) => {
         <Fade bottom duration={1000} distance="40px">
           <div
             className="contact-heading-div"
-            style={{ height: windowHeight - 110 + "px" }}
+            style={{ height: isMobile ? "auto" : windowHeight - 110 + "px" }}
           >
             <div className="contact-heading-img-div">
               <div className="image-custom">

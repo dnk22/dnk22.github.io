@@ -15,6 +15,7 @@ const onMouseOut = (event) => {
   el.style.backgroundColor = "transparent";
 };
 
+const width = window.innerWidth;
 class Header extends Component {
   render() {
     const theme = this.props.theme;
@@ -27,7 +28,7 @@ class Header extends Component {
             <NavLink to={link} tag={Link} className="logo">
               <span style={{ color: theme.text }}> &lt;</span>
               <span className="logo-name" style={{ color: theme.text }}>
-                {greeting.logo_name}
+                {greeting.name_second}
               </span>
               <span style={{ color: theme.text }}>/&gt;</span>
             </NavLink>
