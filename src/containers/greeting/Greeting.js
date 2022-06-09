@@ -7,7 +7,7 @@ import { Fade } from "react-reveal";
 import FeelingProud from "./FeelingProud";
 
 export default function Greeting(props) {
-  const theme = props.theme;
+  const { theme } = props;
   return (
     <Fade bottom duration={2000} distance="40px">
       <div className="greet-main" id="greeting">
@@ -33,7 +33,8 @@ export default function Greeting(props) {
                   newTab={true}
                   href={greeting.portfolio_repository}
                   theme={theme}
-                  className="portfolio-repo-btn"
+                  style={{ width: 256, marginTop: 20 }}
+                  className="portfolio-repo-btn glow-on-hover"
                 />
               </div>
               {/* <div className="button-greeting-div">

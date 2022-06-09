@@ -7,6 +7,10 @@
   margin: 0px auto;
 }
 
+.hover-button-header:hover {
+  border-radius: 5px;
+}
+
 .header ul {
   margin: 0;
   padding: 0;

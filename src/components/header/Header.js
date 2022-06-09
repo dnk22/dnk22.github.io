@@ -45,6 +45,7 @@ class Header extends Component {
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
+                  className="hover-button-header"
                 >
                   Home
                 </NavLink>
@@ -104,6 +105,7 @@ class Header extends Component {
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                  className="hover-button-header"
                   onMouseOut={(event) => onMouseOut(event)}
                 >
                   Contact Me

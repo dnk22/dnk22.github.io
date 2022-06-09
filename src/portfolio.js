@@ -21,8 +21,8 @@ const greeting = {
   title: "Nguyen Khanh Duy",
   logo_name: "Nguyen Khanh Duy",
   name_second: "Nguyen Duy",
-  nickname: "dilys_man",
-  subTitle: "Always look to the future...",
+  nickname: "khanhduy__",
+  subTitle: "Enjoys the sun...",
   resumeLink:
     "https://www.topcv.vn/xem-cv/VwUFAAMIWlZQB1tdAAcCAVkBUVNVVVwKVggCCAf4fb",
   portfolio_repository: "https://github.com/nguyenduy98/nguyenduy98.github.io",
@@ -61,7 +61,7 @@ const socialMediaLinks = [
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/duynk_98/",
+    link: "https://www.instagram.com/khahduy__/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -73,7 +73,7 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building resposive website front end using React-Redux and other middleware dependencies",
+        "⚡ Building responsive website front end using React-Redux and other middleware dependencies",
         "⚡ Developing mobile applications cross-platform using React Native and Flutter ",
         "⚡ Creating application backend in Node, Express & Flask",
       ],

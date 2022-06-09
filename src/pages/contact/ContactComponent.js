@@ -54,6 +54,8 @@ const Contact = ({ theme, onToggle }) => {
                   newTab={true}
                   href={greeting.resumeLink}
                   theme={theme}
+                  style={{ marginTop: 20 }}
+                  className="glow-on-hover"
                 />
               </div>
             </div>
