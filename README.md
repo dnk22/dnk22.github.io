@@ -1,2 +1,2 @@
-- 👋 Hi, I’m @nguyenduy98
-- 🌱 Currently ,I’m a Developer
+- 👋 Hi, I’m Duy Nguyen
+- 🌱 Currently ,I’m a Front-end Developer
