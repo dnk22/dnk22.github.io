@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "masterPortfolio",
-  "homepage": "https://nguyenduy98.github.io",
+  "homepage": "https://dnk22.github.io",
   "version": "0.1.0",
   "scripts": {
     "build": "react-scripts build",
