@@ -21,7 +21,7 @@ const greeting = {
   title: "Nguyen Khanh Duy",
   logo_name: "Nguyen Khanh Duy",
   name_second: "Nguyen Duy",
-  nickname: "khanhduy__",
+  nickname: "Dustin",
   subTitle: "Enjoys the sun...",
   resumeLink:
     "https://www.topcv.vn/xem-cv/VwUFAAMIWlZQB1tdAAcCAVkBUVNVVVwKVggCCAf4fb",

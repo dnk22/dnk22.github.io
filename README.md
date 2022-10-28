@@ -6,24 +6,24 @@
 <h3 align="center"> A clean, beautiful, responsive and 100% customizable portfolio <br /> template for Software Developers! </h3>
 
 <p align="center">
-  <a href="http://hits.dwyl.com/nguyenduy98/masterPortfolio"><img alt="HitCounts" src="http://hits.dwyl.com/nguyenduy98/masterPortfolio.svg" /></a>
+  <a href="http://hits.dwyl.com/duynk22/masterPortfolio"><img alt="HitCounts" src="http://hits.dwyl.com/duynk22/masterPortfolio.svg" /></a>
   <a href="https://nodejs.org/en/blog/release/v12.13.0/"><img alt="NodeJS" src="https://img.shields.io/badge/node-12.14.1-important?style=flat-square" /></a>
   <a href="https://www.npmjs.com/package/npm/v/6.13.4"><img alt="NPM" src="https://img.shields.io/badge/npm-6.13.7-blueviolet?style=flat-square" /></a>
   <a href="https://reactjs.org/"><img alt="Made With React" src="https://img.shields.io/badge/made%20with-react-61DAFB?style=flat-square" /></a>
   <a href="https://join.slack.com/t/masterportfolio/shared_invite/zt-g772n1fo-Ns4usanURF8jVb8wk2lRAA"><img alt="Join Slack Channel For Support" src="https://img.shields.io/badge/slack-masterPortfolio-yellow.svg?logo=slack?style=flat-square" /></a>
   <a href="https://github.com/prettier/prettier"><img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square?style=flat-square" /></a>
   <br/>
-  <a href="https://app.netlify.com/sites/nguyenduy98portfolio/deploys"><img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/abf59f82-3251-4040-b24c-949b86691642/deploy-status?style=flat-square" /></a>
+  <a href="https://app.netlify.com/sites/duynk22portfolio/deploys"><img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/abf59f82-3251-4040-b24c-949b86691642/deploy-status?style=flat-square" /></a>
   <a href="https://travis-ci.org/badges/badgerbadgerbadger"><img alt="Build Status" src="http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square?style=flat-square" /></a>
   <a href="http://badges.mit-license.org/"><img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square?style=flat-square" /></a>
-  <a href="https://github.com/nguyenduy98/masterPortfolio/commits/master"><img alt="Maintenance" src="https://img.shields.io/badge/maintained-yes-green.svg?style=flat-square" /></a>
+  <a href="https://github.com/duynk22/masterPortfolio/commits/master"><img alt="Maintenance" src="https://img.shields.io/badge/maintained-yes-green.svg?style=flat-square" /></a>
   <a href="http://badges.mit-license.org/"><img alt="Website" src="https://img.shields.io/badge/website-up-yellow?style=flat-square" /></a>
   <a href="https://ashutoshhathidara.com/"><img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square?style=flat-square" /></a>
   <a href="https://img.shields.io/badge/price-free-ff69b4"><img alt="Price" src="https://img.shields.io/badge/price-free-ff69b4?style=flat-square" /></a>
 </p>
 
 <p align="center"> 
-    <a href="https://nguyenduy98.github.io" target="_blank">
+    <a href="https://duynk22.github.io" target="_blank">
     <img src="images/old-landing-page.PNG"></img>
   </a>
 </p>
@@ -41,7 +41,7 @@
 ✔️ Education\
 ✔️ Contact me
 
-To view a live example, **[click here](https://nguyenduy98.github.io/)**
+To view a live example, **[click here](https://dnk22.github.io/)**
 
 # Clone And Use 📋
 
@@ -50,7 +50,7 @@ To view a live example, **[click here](https://nguyenduy98.github.io/)**
 - In case you want to help developing it or simply saving it, you can fork the repository just by clicking the button on the top-right corner of this page.
 - After the successful installation of `nodejs` and `npm`, clone the repository into your local system using below command:
   - ```python
-     git clone https://github.com/nguyenduy98/masterPortfolio.git
+     git clone https://github.com/duynk22/masterPortfolio.git
     ```
   - This will clone the whole repository in your system.
 - To download required dependencies to your system, navigate to the directory where the cloned repository resides and execute following command:
@@ -114,7 +114,7 @@ Whenever you want to update the github related information on the website you ne
 
 ### Splash Logo
 
-Note here that if you click [my portfolio](https://nguyenduy98.github.io), you can see animating the logo at the beginning. I have designed that logo in [`Figma`](https://www.figma.com/) and then animated it using css.
+Note here that if you click [my portfolio](https://duynk22.github.io), you can see animating the logo at the beginning. I have designed that logo in [`Figma`](https://www.figma.com/) and then animated it using css.
 Therefore, this part of portfolio is not customizable. But don't worry we have a solution to this problem. You have below two alternatives:
 
 - If you want to design your own logo, then you can design it using `Figma` or `Adobe XD` or `Adobe Illustrator` or `Inkscape`. If you want to animate it, you can refer to `./src/components/Loader` directory which contains `js` and `css` files which animates the logo.
